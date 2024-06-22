@@ -85,7 +85,7 @@ Ensure correct permissions for the SSH key:
 6. Run Ollama with Llama3 Model
 Run the following command to start the Llama3 model:
 
-```ollama run llama3```
+```ollama run gemma:2b```
 
 If you encounter an error related to the SSH key, such as input/output error, ensure that the SSH key is properly set up and the permissions are correct. If the issue persists, you may need to delete the existing container and recreate it using the Docker commands provided.
 
